@@ -6,7 +6,7 @@ This project was made to show our basic HTML and CCS skills cloning the main fea
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/FrancoRosa/apple-clone/9a4229ec10fdc98492c3b690ecdc709a102d1cc7/index.html)
+[Live Demo Link](https://rawcdn.githack.com/FrancoRosa/apple-clone/853e502f7ad04c3eeb0c81565c4e3a9a6b0e52b3/index.html)
 
 
 ## Author
