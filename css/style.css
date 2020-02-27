@@ -99,6 +99,7 @@ footer {
   font-size: 10px;
   color: #6e6e6e;
   list-style: none;
+  min-width: 600px;
 }
 
 a{
