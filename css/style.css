@@ -1,5 +1,10 @@
-body {
-  margin: -35px 0 0 0;
+html, body {
+  margin: -20px 0 0 0;
+}
+
+main {
+  width: 100%;
+  min-width: 800px;
 }
 
 .main-image {
@@ -33,14 +38,34 @@ nav {
 .products {
   display: flex;
   width: 100%;
+  height: auto;
 }
 
 .product-item {
   min-width: 200px;
 }
 
-.product-item > img {
+.product-item {
   width: 100%;
+  min-height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.prod1 {
+  background-image: url(../images/pic1.jpg);
+}
+
+.prod2 {
+  background-image: url(../images/pic2.jpg);
+}
+
+.prod3 {
+  background-image: url(../images/pic3.jpg);
+}
+
+.prod4 {
+  background-image: url(../images/pic4.jpg);
 }
 
 .button {
@@ -91,7 +116,7 @@ i {
 }
 
 footer {
-  padding: 0 200px 0 100px;
+  padding: 0 100px 0 100px;
 }
 
 .shop {
@@ -99,7 +124,7 @@ footer {
   font-size: 10px;
   color: #6e6e6e;
   list-style: none;
-  min-width: 600px;
+  min-width: 500px;
 }
 
 a {
@@ -109,12 +134,17 @@ a {
 
 .first-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 10px;
 }
 
 .links {
   display: flex;
   align-items: center;
+  min-width: 500px;
 }
 
 .links > li {
